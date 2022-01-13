@@ -12,7 +12,7 @@ git clone https://github.com/tracy1949/nolanjdc.git
 
 2 拉取基础镜像以后不需要拉取镜像了 如果需要拉取我会通知
 ```
-sudo docker pull liqinghuan/nvjdc:latest
+sudo docker pull tracy1949/nvjdc:latest
 ```
 
 3 执行命令
