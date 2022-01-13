@@ -18,6 +18,8 @@ sudo docker pull liqinghuan/nvjdc:latest
 3 执行命令
 
 ```
+apt-get install wget unzip -y
+
 yum install wget unzip -y
 ```
 
