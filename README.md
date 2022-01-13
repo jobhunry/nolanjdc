@@ -1,49 +1,3 @@
-# 原作者已删库，此为备份原镜像nolanjdc2.4
-
-
-## 注意 注意注意
-
-    HUBdcoker里面有一个 nolanjdc/nvjdc 镜像不要拉 我看还有500多人拉了 起名都有所图 别的我不多说了把
-
-    我自己的docker  nolanhzy/nvjdc 认清楚
-
-## 提示
-
-由于我自己的环境是centos x86，
-
-这是打包过的 不要fork
-
-不是热更新 每次修改配置需要重启容器
-
-## Windows安装教程
-
-
-# 1安装ASP.NET Core Runtime 5.0.12
-
-安装地址:https://dotnet.microsoft.com/download/dotnet/5.0
-下载之后无脑下一步
-
-# 2下载当前项目源码解压
-
-# 3删除NETJDC.deps.json
-
-
-# 4根据自己系统将dll复制根目录即可
-
-64位
-
-复制runtimes\win-x64\native\OpenCvSharpExtern.dll到根目录
-
-32位
-
-复制runtimes\win-x86\native\OpenCvSharpExtern.dll到根目录
-
-# 启动 
-
- 管理员打开CMD CD到源码文件夹中  输入 dotnet NETJDC.dll --urls=http://*:5000
-
- 后面那个是端口可以自己改
-
 ## docker安装教程
 
 如果你是装过NVjdc 先看看后面1.2以前如何更新之1.2升级说明
@@ -51,7 +5,7 @@
 1拉源码
 国内
 ```
-git clone https://github.com/Melanchth/nolanjdc.git
+git clone https://github.com/tracy1949/nolanjdc.git
 ```
 
 
@@ -276,6 +230,52 @@ docker start nolanjdc
 ```
 
 
+
+# 原作者已删库，此为备份原镜像nolanjdc2.4
+
+
+## 注意 注意注意
+
+    HUBdcoker里面有一个 nolanjdc/nvjdc 镜像不要拉 我看还有500多人拉了 起名都有所图 别的我不多说了把
+
+    我自己的docker  nolanhzy/nvjdc 认清楚
+
+## 提示
+
+由于我自己的环境是centos x86，
+
+这是打包过的 不要fork
+
+不是热更新 每次修改配置需要重启容器
+
+## Windows安装教程
+
+
+# 1安装ASP.NET Core Runtime 5.0.12
+
+安装地址:https://dotnet.microsoft.com/download/dotnet/5.0
+下载之后无脑下一步
+
+# 2下载当前项目源码解压
+
+# 3删除NETJDC.deps.json
+
+
+# 4根据自己系统将dll复制根目录即可
+
+64位
+
+复制runtimes\win-x64\native\OpenCvSharpExtern.dll到根目录
+
+32位
+
+复制runtimes\win-x86\native\OpenCvSharpExtern.dll到根目录
+
+# 启动 
+
+ 管理员打开CMD CD到源码文件夹中  输入 dotnet NETJDC.dll --urls=http://*:5000
+
+ 后面那个是端口可以自己改
 ## 特别声明:
 
 * 本仓库涉仅用于测试和学习研究，禁止用于商业用途，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断.
