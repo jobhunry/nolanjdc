@@ -5,7 +5,7 @@
 1拉源码
 国内
 ```
-git clone https://github.com/tracy1949/nolanjdc.git
+git clone https://github.com/jobhunry/nolanjdc
 ```
 
 
